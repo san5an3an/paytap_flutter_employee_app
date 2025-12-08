@@ -1,0 +1,90 @@
+{
+  "results": {
+    "totalList": {
+      "posNo": "01",
+      "posNm": "POS01 (Main)",
+      "recptUnqno": "0001",
+      "paymentDt": "20240905150552",
+      "salesman": "홍길동 매니저",
+      "sumPrice": 46000
+    },
+    "orderList": [
+      {
+        "goodsNm": "아웃햄버거 상품명",
+        "goodsCnt": 2,
+        "price": 14000,
+        "child": [
+          {
+            "optionNm": "상품 상세 옵션",
+            "price": 1000
+          },
+          {
+            "optionNm": "상품 상세 옵션",
+            "price": 1000
+          },
+          {
+            "optionNm": "할인",
+            "price": -5000
+          }
+        ]
+      },
+      {
+        "goodsNm": "아웃햄버거 상품명",
+        "goodsCnt": 3,
+        "price": 21000,
+        "child": [
+          {
+            "optionNm": "상품 상세 옵션",
+            "price": 1000
+          },
+          {
+            "optionNm": "할인",
+            "price": -5000
+          }
+        ]
+      },
+      {
+        "goodsNm": "아웃햄버거 상품명",
+        "goodsCnt": 1,
+        "price": 7000,
+        "child": [
+          {
+            "optionNm": "할인",
+            "price": -5000
+          }
+        ]
+      },
+      {
+        "goodsNm": "아웃햄버거 상품명",
+        "goodsCnt": 1,
+        "price": 7000,
+        "child": [
+          {
+            "optionNm": "할인",
+            "price": -5000
+          }
+        ]
+      },
+      {
+        "goodsNm": "아웃햄버거 상품명",
+        "goodsCnt": 1,
+        "price": 7000,
+        "child": [
+          {
+            "optionNm": "할인",
+            "price": -5000
+          }
+        ]
+      }
+    ],
+    "paymentList": {
+      "sumSalePrice": 46000,
+      "sumActSalePrice": 45000,
+      "cashPrice": 36000,
+      "cardPrice": 9000,
+      "point": 1000,
+      "mbrNm": "홍길동",
+      "mbrCelno": "01012340000"
+    }
+  }
+}

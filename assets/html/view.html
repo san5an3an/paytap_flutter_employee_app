@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="content" class="content"></div>
+
+    <script type="text/javascript">
+      // Flutter에서 호출할 JavaScript 함수
+      function setContent(htmlContent, width) {
+        document.getElementById("content").innerHTML = htmlContent;
+        document.getElementById("content").style.width = `${width}px`;
+        // 삽입된 이미지들의 스타일을 설정
+        const imgs = document
+          .getElementById("content")
+          .getElementsByTagName("img");
+        for (let img of imgs) {
+          img.classList.add("content-img"); // 이미지에 클래스 추가
+          img.style.width = `${width - 30}px`; // 이미지 너비를 100%로 설정
+          img.style.height = "auto"; // 비율 유지
+        }
+        // MutationObserver를 설정하여 DOM 변화 감지
+        const observer = new MutationObserver(() => {
+          const height = document.getElementById("content").offsetHeight;
+          messageHandler.postMessage(height); // Flutter로 높이를 전송
+          observer.disconnect(); // 관찰을 중지
+        });
+
+        // observer 설정
+        observer.observe(document.getElementById("content"), {
+          childList: true, // 자식 노드 추가/제거 감지
+          subtree: true, // 모든 하위 노드 감지
+        });
+        // 이미지 로드 시 높이 변화 감지
+        for (let img of imgs) {
+          img.onload = () => {
+            const height = document.getElementById("content").offsetHeight;
+            messageHandler.postMessage(height); // Flutter로 높이를 전송
+          };
+        }
+      }
+    </script>
+  </body>
+</html>

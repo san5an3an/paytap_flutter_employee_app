@@ -1,0 +1,51 @@
+{
+  "results": {
+    "totalData": {
+      "salePrice": 36500,
+      "discountPrice": 1000,
+      "actSalePrice": 35500,
+      "price": 12090,
+      "vatPrice": 910,
+      "tipPrice": 0,
+      "overchargePrice": 0,
+      "gstPayAmt": 35500,
+      "returnChangePrice": 0,
+      "recptCnt": 8,
+      "avrgSalePrice": 4438,
+      "avrgActSalePrice": 4438,
+      "avrgRecptCnt": 10
+    },
+    "saleList": [
+      {
+        "saleDe": "20240905",
+        "salePrice": 36500,
+        "discountPrice": 1000,
+        "actSalePrice": 35500,
+        "normalGoodsPrice": 90000,
+        "taxFreeGoodsPrice": 10000,
+        "vatPrice": 9000,
+        "tipPrice": 0,
+        "overchargePrice": 0,
+        "gstPayAmt": 35500,
+        "returnChangePrice": 0,
+        "recptPrice": 5450,
+        "recptCnt": 20
+      },
+      {
+        "saleDe": "20240906",
+        "salePrice": 36500,
+        "discountPrice": 1000,
+        "actSalePrice": 35500,
+        "normalGoodsPrice": 90000,
+        "taxFreeGoodsPrice": 10000,
+        "vatPrice": 9000,
+        "tipPrice": 0,
+        "overchargePrice": 0,
+        "gstPayAmt": 35500,
+        "returnChangePrice": 0,
+        "recptPrice": 5450,
+        "recptCnt": 20
+      }
+    ]
+  }
+}
