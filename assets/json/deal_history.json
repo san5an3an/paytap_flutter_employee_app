@@ -1,0 +1,81 @@
+{
+  "results": {
+    "totalData": {
+      "salePrice": 36500,
+      "discountPrice": 1000,
+      "actSalePrice": 35500,
+      "price": 12090,
+      "vatPrice": 910,
+      "tipPrice": 0,
+      "overchargePrice": 0,
+      "gstPayAmt": 35500,
+      "returnChangePrice": 0,
+      "recptCnt": 8,
+      "avrgSalePrice": 4438,
+      "avrgActSalePrice": 4438,
+      "avrgRecptCnt": 10
+    },
+    "saleList": [
+      {
+        "returnAt": "N",
+        "posNo": "01",
+        "saleDe": "20240905",
+        "recptUnqno": "0001",
+        "salePrice": 40000,
+        "actSalePrice": 40000,
+        "paymentDt": "20240905150552",
+        "paymentName": "카드(국민)"
+      },
+      {
+        "returnAt": "Y",
+        "posNo": "02",
+        "saleDe": "20240905",
+        "recptUnqno": "0002",
+        "salePrice": 60000,
+        "actSalePrice": 60000,
+        "paymentDt": "20240905150552",
+        "paymentName": "카드(국민)"
+      },
+      {
+        "returnAt": "N",
+        "posNo": "01",
+        "saleDe": "20240906",
+        "recptUnqno": "0001",
+        "salePrice": 200000,
+        "actSalePrice": 200000,
+        "paymentDt": "20240906150552",
+        "paymentName": "카드(국민)"
+      },
+      {
+        "returnAt": "N",
+        "posNo": "01",
+        "saleDe": "20240908",
+        "recptUnqno": "0001",
+        "salePrice": 13000,
+        "actSalePrice": 13000,
+        "paymentDt": "20240908150552",
+        "paymentName": "카드(국민)"
+      },
+      {
+        "returnAt": "N",
+        "posNo": "01",
+        "saleDe": "20240910",
+        "recptUnqno": "0001",
+        "salePrice": 6000,
+        "actSalePrice": 6000,
+        "paymentDt": "20240910150552",
+        "paymentName": "카드(국민)"
+      },
+      {
+        "returnAt": "N",
+        "posNo": "01",
+        "saleDe": "20241012",
+        "recptUnqno": "0001",
+        "salePrice": 4000,
+        "actSalePrice": 4000,
+        "paymentDt": "20241012150552",
+        "paymentName": "카드(국민)"
+      }
+    ]
+  }
+}

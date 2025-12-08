@@ -1,0 +1,100 @@
+# analysis_options.yaml
+include: package:flutter_lints/flutter.yaml
+
+# analyzer:
+#   strong-mode:
+#     implicit-casts: false  # 비암시적 형 변환을 금지합니다.
+#     implicit-dynamic: false  # 비암시적 dynamic 타입 사용을 금지합니다.
+
+linter:
+  rules:
+    # always_declare_return_types: true  # 함수 및 메서드의 반환 타입을 항상 선언합니다.
+    # always_specify_types: true  # 변수 및 필드의 타입을 항상 명시합니다.
+    # annotate_overrides: true  # @override 어노테이션을 명시합니다.
+    # avoid_empty_else: true  # 빈 else 블록을 피합니다.
+    # avoid_function_literals_in_foreach_calls: true  # foreach 호출 내에 함수 리터럴을 피합니다.
+    # avoid_redundant_argument_values: true  # 불필요한 기본 인자 값을 피합니다.
+    # avoid_returning_null: true  # null 반환을 피합니다.
+    # avoid_setters_without_getters: true  # getter가 없는 setter를 피합니다.
+    # avoid_slow_async_io: true  # 느린 비동기 I/O 연산을 피합니다.
+    # avoid_types_on_closure_parameters: true  # 클로저 매개변수에 타입을 명시하지 않습니다.
+    # await_only_futures: true  # Future가 아닌 값에 await를 사용하지 않습니다.
+    # cancel_subscriptions: true  # 구독을 취소합니다.
+    # camel_case_extensions: true  # 확장명을 camelCase로 작성합니다.
+    # camel_case_types: true  # 타입 이름을 camelCase로 작성합니다.
+    # cascade_invocations: true  # 계단식 호출을 사용합니다.
+    # curly_braces_in_flow_control_structures: true  # 흐름 제어 구조에서 중괄호를 사용합니다.
+    # empty_catches: true  # 빈 catch 블록을 피합니다.
+    # empty_constructor_bodies: true  # 빈 생성자 본문을 피합니다.
+    # empty_statements: true  # 빈 문장을 피합니다.
+    # hash_and_equals: true  # hashCode와 equals를 올바르게 구현합니다.
+    # invariant_booleans: true  # 항상 참 또는 거짓인 불리언을 피합니다.
+    # iterable_contains_unrelated_type: true  # 관련이 없는 타입을 가진 iterable을 포함하지 않습니다.
+    # list_remove_unrelated_type: true  # 관련이 없는 타입을 가진 리스트를 제거하지 않습니다.
+    # literal_only_boolean_expressions: true  # 리터럴 불리언 표현만 사용합니다.
+    # no_duplicate_case_values: true  # 중복된 case 값을 피합니다.
+    # no_runtimeType_toString: true  # toString에서 runtimeType을 사용하지 않습니다.
+    # null_closures: true  # null 클로저를 피합니다.
+    # package_api_docs: true  # 패키지 API 문서를 작성합니다.
+    # package_names: true  # 패키지 이름 규칙을 따릅니다.
+    # parameter_assignments: true  # 매개변수에 할당하지 않습니다.
+    # prefer_adjacent_string_concatenation: true  # 인접한 문자열 연결을 선호합니다.
+    # prefer_collection_literals: true  # 컬렉션 리터럴을 선호합니다.
+    # prefer_conditional_assignment: true  # 조건부 할당을 선호합니다.
+    constant_identifier_names: false # 또는 주석 처리
+    prefer_const_constructors: false # const 생성자를 선호합니다.
+    # prefer_const_constructors_in_immutables: true  # 불변 객체에서 const 생성자를 선호합니다.
+    # prefer_const_declarations: true  # const 선언을 선호합니다.
+    prefer_const_literals_to_create_immutables: false # 불변 객체 생성을 위한 const 리터럴을 선호합니다.
+    # prefer_contains: true  # contains 메서드를 선호합니다.
+    # prefer_equal_for_default_values: true  # 기본값에 대해 동등 비교를 선호합니다.
+    # prefer_final_fields: true  # final 필드를 선호합니다.
+    # prefer_final_in_for_each: true  # forEach 내에서 final을 선호합니다.
+    # prefer_final_locals: true  # 로컬 변수에 final을 선호합니다.
+    # prefer_for_elements_to_map_fromIterable: true  # Iterable에서 map보다는 for 요소를 선호합니다.
+    # prefer_function_declarations_over_variables: true  # 변수보다는 함수 선언을 선호합니다.
+    # prefer_generic_function_type_aliases: true  # 제네릭 함수 타입 별칭을 선호합니다.
+    # prefer_if_elements_to_conditional_expressions: true  # 조건부 표현보다는 if 요소를 선호합니다.
+    # prefer_initializing_formals: true  # 초기화하는 생성자 매개변수를 선호합니다.
+    # prefer_inlined_adds: true  # 추가된 코드를 인라인으로 작성합니다.
+    # prefer_int_literals: true  # int 리터럴을 선호합니다.
+    # prefer_interpolation_to_compose_strings: true  # 문자열을 구성할 때 문자열 보간을 선호합니다.
+    # prefer_is_empty: true  # .isEmpty를 선호합니다.
+    # prefer_is_not_empty: true  # .isNotEmpty를 선호합니다.
+    # prefer_iterable_whereType: true  # whereType 메서드를 선호합니다.
+    # prefer_relative_imports: true  # 상대 경로 가져오기를 선호합니다.
+    prefer_single_quotes: false # 단일 따옴표를 선호합니다.
+    # prefer_typing_uninitialized_variables: true  # 초기화되지 않은 변수에 타입을 지정합니다.
+    # recursive_getters: true  # 재귀적인 getter를 피합니다.
+    # slash_for_doc_comments: true  # 문서 주석에 슬래시를 사용합니다.
+    # sort_child_properties_last: true  # 자식 속성을 마지막에 정렬합니다.
+    # sort_constructors_first: true  # 생성자를 먼저 정렬합니다.
+    # sort_unnamed_constructors_first: true  # 이름이 없는 생성자를 먼저 정렬합니다.
+    # test_types_in_equals: true  # equals에서 타입을 테스트합니다.
+    # throw_in_finally: true  # finally 블록에서 throw를 피합니다.
+    # type_annotate_public_apis: true  # 공개 API에 타입을 명시합니다.
+    # type_init_formals: true  # 초기화하는 생성자 매개변수에 타입을 명시합니다.
+    # unawaited_futures: true  # unawaited future를 피합니다.
+    # unnecessary_brace_in_string_interps: true  # 문자열 보간에서 불필요한 중괄호를 피합니다.
+    # unnecessary_const: true  # 불필요한 const를 피합니다.
+    # unnecessary_lambdas: true  # 불필요한 람다를 피합니다.
+    # unnecessary_new: true  # 불필요한 new를 피합니다.
+    # unnecessary_null_aware_assignments: true  # 불필요한 null 인지 할당을 피합니다.
+    # unnecessary_null_aware_operator_on_condition: true  # 조건에서 불필요한 null 인지 연산자를 피합니다.
+    # unnecessary_parenthesis: true  # 불필요한 괄호를 피합니다.
+    # unnecessary_statements: true  # 불필요한 문장을 피합니다.
+    # unnecessary_string_escapes: true  # 불필요한 문자열 이스케이프를 피합니다.
+    # unnecessary_string_interpolations: true  # 불필요한 문자열 보간을 피합니다.
+    # unnecessary_this: true  # 불필요한 this를 피합니다.
+    # unrelated_type_equality_checks: true  # 관련 없는 타입의 동등성 검사를 피합니다.
+    # use_full_hex_values_for_flutter_colors: true  # Flutter 색상에 대해 전체 6자리 16진수 값을 사용합니다.
+    # use_function_type_syntax_for_parameters: true  # 매개변수에 대해 함수 타입 문법을 사용합니다.
+    # use_key_in_widget_constructors: true  # 위젯 생성자에 key를 사용합니다.
+    # use_rethrow_when_possible: true  # 가능한 경우 rethrow를 사용합니다.
+    # use_setters_to_change_properties: true  # 속성 변경에 setter를 사용합니다.
+    # valid_regexps: true  # 유효한 정규 표현식을 사용합니다.
+# 공식 지원 링크
+# and their documentation is published at https://dart.dev/lints.
+# https://dart.dev/guides/language/analysis-options
+# IDEs (https://dart.dev/tools#ides-and-editors). The analyzer can also be
+

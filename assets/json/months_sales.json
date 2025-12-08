@@ -1,0 +1,52 @@
+{
+  "results": [
+    {
+      "saleDe": "202401",
+      "actSalePrice": 10000
+    },
+    {
+      "saleDe": "202402",
+      "actSalePrice": 24555
+    },
+    {
+      "saleDe": "202403",
+      "actSalePrice": -10000
+    },
+    {
+      "saleDe": "202404",
+      "actSalePrice": -2500
+    },
+    {
+      "saleDe": "202405",
+      "actSalePrice": 0
+    },
+    {
+      "saleDe": "202406",
+      "actSalePrice": 42312
+    },
+    {
+      "saleDe": "202407",
+      "actSalePrice": 11241
+    },
+    {
+      "saleDe": "202408",
+      "actSalePrice": 65000
+    },
+    {
+      "saleDe": "202409",
+      "actSalePrice": 40000
+    },
+    {
+      "saleDe": "202410",
+      "actSalePrice": 23400
+    },
+    {
+      "saleDe": "202411",
+      "actSalePrice": 100250
+    },
+    {
+      "saleDe": "202412",
+      "actSalePrice": 112000
+    }
+  ]
+}
